@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia sẻ Công nghệ 4.0 và AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <!-- Thêm logo hình động -->
+            <div class="logo">
+                <img src="logo-4.0-ai.gif" alt="Logo Công nghệ 4.0 và AI">
+            </div>
+            <h1>Chia sẻ Công nghệ 4.0 và AI</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#articles">Bài viết</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#updates">Cập nhật</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside>
+            <h2>Danh mục</h2>
+            <ul>
+                <li><a href="#digitaltransformation">Chuyển đổi số</a></li>
+                <li><a href="#ai">Trí tuệ nhân tạo</a></li>
+                <li><a href="#iot">Internet of Things</a></li>
+                <li><a href="#bigdata">Big Data</a></li>
+                <li><a href="#blockchain">Blockchain</a></li>
+                <li><a href="#automation">Tự động hóa</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="articles">
+                <h2>Bài viết mới nhất</h2>
+                <div id="article-list">
+                    <p>Đang tải bài viết...</p>
+                </div>
+            </section>
+
+            <section id="updates">
+                <h2>Cập nhật thông tin</h2>
+                <form id="update-form">
+                    <input type="text" id="title" placeholder="Tiêu đề" required>
+                    <textarea id="content" placeholder="Nội dung" required></textarea>
+                    <button type="submit">Đăng bài</button>
+                </form>
+            </section>
+
+            <section id="about">
+                <h2>Giới thiệu</h2>
+                <p>Chào mừng bạn đến với trang web chia sẻ về Công nghệ 4.0 và AI. Chúng tôi cung cấp những thông tin, bài viết, và tài liệu mới nhất về các xu hướng công nghệ hiện đại, bao gồm Trí tuệ nhân tạo, Internet of Things, Big Data, và nhiều chủ đề khác.</p>
+            </section>
+            
+            <!-- Mục Chuyển đổi số -->
+            <section id="digitaltransformation">
+                <h2>Giới thiệu về Chuyển đổi số</h2>
+                <div>
+                    <!-- Mục lục -->
+                    <h3>Mục lục</h3>
+                    <ol>
+                        <li><a href="#section1">Chuyển đổi số (Digital Transformation) là gì?</a></li>
+                        <li><a href="#section2">Thực trạng chuyển đổi số hiện nay</a></li>
+                        <li><a href="#section3">Mục tiêu của chuyển đổi số</a></li>
+                        <li><a href="#section4">Lợi ích của chuyển đổi số</a></li>
+                        <li><a href="#section5">4 Yếu tố quan trọng khi chuyển đổi số</a></li>
+                        <li><a href="#section6">Các công nghệ chuyển đổi số cần thiết</a></li>
+                        <li><a href="#section7">Chương trình Chuyển đổi số quốc gia tại Việt Nam</a></li>
+                        <li><a href="#section8">Các lĩnh vực có thể áp dụng chuyển đổi số</a></li>
+                        <li><a href="#section9">Quy trình chuyển đổi số trong tổ chức</a></li>
+                        <li><a href="#section10">Văn hóa doanh nghiệp trong chuyển đổi số</a></li>
+                        <li><a href="#section11">Phân biệt chuyển đổi số (Digital Transformation) và số hóa (Digitization)</a></li>
+                        <li><a href="#section12">Chuyển đổi số trong bối cảnh ESG</a></li>
+                        <li><a href="#section13">Ứng dụng chuyển đổi số trong phòng chống và ứng phó với biến đổi khí hậu</a></li>
+                        <li><a href="#section14">Các câu hỏi thường gặp về chuyển đổi số</a></li>
+                    </ol>
+
+                    <!-- Nội dung chi tiết -->
+                    <h3 id="section1">1. Chuyển đổi số (Digital Transformation) là gì?</h3>
+                    <p>Chuyển đổi số (Digital Transformation - viết tắt là DX) là quá trình ứng dụng công nghệ kỹ thuật số để thay đổi tổng thể và toàn diện về cách thức hoạt động và tương tác trong mọi lĩnh vực của xã hội...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section2">2. Thực trạng chuyển đổi số hiện nay</h3>
+                    <p>Chuyển đổi số giờ đây không còn là tầm nhìn hay một mục tiêu xa vời trong tương lai, mà đã trở thành một quá trình thiết yếu...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section3">3. Mục tiêu của chuyển đổi số</h3>
+                    <p>Với mục tiêu tận dụng công nghệ số trong Digital Transformation nhằm cải thiện, tối ưu hóa quy trình làm việc, tăng tính linh hoạt...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section4">4. Lợi ích của chuyển đổi số</h3>
+                    <p>Digital Transformation được xem là xu hướng giảm thiểu thời gian trong quản lý và tối ưu chi phí. Dù muốn hay không...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section5">5. 4 Yếu tố quan trọng khi chuyển đổi số</h3>
+                    <p>1. Dữ liệu<br>2. Yếu tố công nghệ<br>3. Quy trình trong Digital Transformation<br>4. Yếu tố con người...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section6">6. Các công nghệ chuyển đổi số cần thiết</h3>
+                    <p>Các công nghệ chuyển đổi số (digital transformation technologies) đang trở thành một phần quan trọng trong nhiều lĩnh vực...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <h3 id="section7">7. Chương trình Chuyển đổi số quốc gia tại Việt Nam</h3>
+                    <p>Chuyển đổi số quốc gia là quá trình một quốc gia áp dụng công nghệ số để thúc đẩy sự phát triển kinh tế, cải thiện dịch vụ công...</p>
+                    <!-- Các đoạn văn tiếp theo... -->
+
+                    <!-- Các mục khác -->
+                    <h3 id="section8">8. Các lĩnh vực có thể áp dụng chuyển đổi số</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section9">9. Quy trình chuyển đổi số trong tổ chức</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section10">10. Văn hóa doanh nghiệp trong chuyển đổi số</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section11">11. Phân biệt chuyển đổi số (Digital Transformation) và số hóa (Digitization)</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section12">12. Chuyển đổi số trong bối cảnh ESG</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section13">13. Ứng dụng chuyển đổi số trong phòng chống và ứng phó với biến đổi khí hậu</h3>
+                    <!-- Nội dung... -->
+
+                    <h3 id="section14">14. Các câu hỏi thường gặp về chuyển đổi số</h3>
+                    <!-- Nội dung... -->
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Bài viết nổi bật</h2>
+            <ul>
+                <li><a href="#ai-article">AI trong cuộc sống hàng ngày</a></li>
+                <li><a href="#iot-article">Tương lai của IoT</a></li>
+                <li><a href="#bigdata-article">Phân tích dữ liệu lớn</a></li>
+                <li><a href="#blockchain-article">Blockchain và an ninh mạng</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Công nghệ 4.0 và AI. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a> | 
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

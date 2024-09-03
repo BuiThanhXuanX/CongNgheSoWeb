@@ -1,0 +1,37 @@
+/* Định dạng logo và tiêu đề */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px; /* Điều chỉnh kích thước logo tùy ý */
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
